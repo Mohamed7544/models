@@ -285,5 +285,3 @@ def resnet152(pretrained=False, progress=True, **kwargs):
     """
     return _resnet('resnet152', Bottleneck, [3, 8, 36, 3], pretrained, progress,
                    **kwargs)
-
-net = resnet50(pretrained=False, progress=True)
