@@ -293,6 +293,8 @@ def resnet152(pretrained=False, progress=True, **kwargs):
                    **kwargs)
 
 net = resnet50(pretrained=False, progress=True)
+
+
 class model_bn(nn.Module):
     def __init__(self, feature_size=512,classes_num=200):
 
